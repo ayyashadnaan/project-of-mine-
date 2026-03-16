@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<body>
+    
+    <div class="form-container">
+
+  <form class="registration-form">
+
+    <h1 class="form-title">Registration Form</h1>
+
+    <div class="form-group">
+      <label for="username" class="form-label">Username</label>
+      <input type="text" id="username" class="form-input" placeholder="Username" required>
+      <div id="username-error" class="error-message"></div>
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" id="email" class="form-input" placeholder="Email" required>
+      <div id="email-error" class="error-message"></div>
+    </div>
+
+    <div class="form-group">
+      <label for="phone" class="form-label">Phone Number</label>
+      <input type="text" id="phone" class="form-input" placeholder="Phone Number" required>
+      <div id="phone-error" class="error-message"></div>
+    </div>
+
+    <div class="form-group">
+      <label for="country" class="form-label">Country</label>
+      <input type="text" id="country" class="form-input" placeholder="Country" required>
+      <div id="country-error" class="error-message"></div>
+    </div>
+
+    <div class="form-group">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" id="password" class="form-input" placeholder="Password" required>
+      <i class="fa-solid fa-eye-slash togglepass"></i>
+      <div id="password-error" class="error-message"></div>
+    </div>
+
+    <div class="form-group">
+      <label for="confirm-password" class="form-label">Confirm Password</label>
+      <input type="password" id="confirm-password" class="form-input" placeholder="Confirm Password" required>
+      <i class="fa-solid fa-eye-slash togglepass" ></i>
+      <div id="confirm-password-error" class="error-message"></div>
+    </div>
+    <button class="btn">Submit</button>
+
+  </form>
+
+</div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
